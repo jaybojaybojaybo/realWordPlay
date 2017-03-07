@@ -4,7 +4,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     var sentence = $("#userSentence").val();
+    var splitSen = sentence.split(" ");
 
-    $("#outputs").text(sentence);
+    $("#outputs").text(splitSen);
   });
 });
