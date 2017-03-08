@@ -10,10 +10,10 @@ $(document).ready(function() {
     var lengths = splitSen.map(function(word) {
       if (word.length > 3) {
         return word
-      }; 
+      };
       });
     console.log(sentence);
     console.log(lengths);
-    $("#outputs").text(lengths);
+    $("#outputs").text(lengths.reverse());
   });
 });
